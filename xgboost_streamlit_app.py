@@ -4,7 +4,7 @@ import numpy as np
 import xgboost as xgb
 
 # Load the original dataset
-df = pd.read_csv("https://raw.githubusercontent.com/Lavenderlime/your-repo-name/main/clean_data_1.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/Lavenderlime/rail-refund-app/main/clean_data_1.csv")
 
 # Drop 'Transaction ID'
 if 'Transaction ID' in df.columns:
